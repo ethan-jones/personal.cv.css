@@ -1,0 +1,193 @@
+body {
+    margin: 25px 50px 75px 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgb(226, 55, 55);
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(226, 55, 55);
+    font-size: large;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1.splash {
+    display: flex;
+    justify-content: center;
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+    color:rgb(226, 55, 55);
+}
+
+img.splash {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid rgb(226, 55, 55);
+    border-radius: 5px;
+}
+
+p.splash {
+    display: flex;
+    justify-content: center;
+    text-decoration-line: underline;
+}
+
+hr {
+    border: 5px solid rgb(226, 55, 55);
+    border-radius: 5px;
+}
+
+h2.education {
+    font-family: "Archivo Black", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    color:rgb(226, 55, 55);
+}
+
+p.education {
+    display: flex;
+    justify-content: center;
+}
+
+h2.honors {
+    font-family: "Archivo Black", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    color:rgb(226, 55, 55);
+}
+
+h2.skills {
+    font-family: "Archivo Black", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    color:rgb(226, 55, 55);
+}
+
+h2.leadership {
+    font-family: "Archivo Black", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    color:rgb(226, 55, 55);
+}
+
+h2.projects {
+    font-family: "Archivo Black", sans-serif;
+    font-size: x-large;
+    font-style: normal;
+    color:rgb(226, 55, 55);
+}
+
+ul.u-list {
+    list-style-type: square;
+}
+
+dl.description {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+a.link:link {
+    color: rgb(226, 55, 55);
+    text-decoration: none;
+}
+a.link:visited {
+    color: rgb(226, 55, 55);
+    text-decoration: none;
+}
+a.link:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+div.three-col {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    padding: 20px;
+}
+
+div.col {
+    border: 10px solid rgb(226, 55, 55);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 5px 5px grey;
+}
+
+.img1 {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.img2 {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.img3 {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+form.one-col {
+    display: grid;
+    padding: 20px;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+label.one-col {
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+    color:rgb(226, 55, 55);
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background-color: rgb(226, 55, 55);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
